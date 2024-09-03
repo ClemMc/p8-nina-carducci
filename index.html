@@ -7,16 +7,18 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link rel="preload" href="./assets/images/nina.png" as="image">
 	<meta charset="UTF-8">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<title>Nina Carducci</title>
 </head>
 <body>
-<div class="top-header">
+<header class="top-header">
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -24,8 +26,8 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
 <div id="header">
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -57,7 +59,7 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png" alt="Nina Carducci">
+		<img src="./assets/images/nina.png" alt="Nina Carducci" width="500" height="500">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
@@ -154,5 +156,23 @@
 		</div>
 	</div>
 </div>
+<footer>
+	<h3>Nina Carducci - Photographie</h3>
+	<div>
+		<article>
+			<h4>Adresse :</h4>
+			<p>68 avenue Alsace-Lorraine, 33200 Bordeaux</p>
+		</article>
+		<article>
+			<h4>Contact :</h4>
+			<p>Tél : 05 56 67 78 89</p>
+		</article>
+		<article>
+			<h4>Horaires de photographie :</h4>
+			<p>du lundi au vendredi de 10h à 19h</p>
+		</article>
+	</div>	
+
+</footer>
 </body>
 </html>
