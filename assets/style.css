@@ -188,6 +188,13 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
+.service__price span {
+	font-size: 1.5rem;
+}
+.service__price p {
+	font-size: 1.5rem;
+	margin: 0;
+}
 
 #contact {
 	margin: auto;
